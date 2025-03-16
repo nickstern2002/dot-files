@@ -19,4 +19,4 @@ alias k="kubectl"
 
 alias hg='history | fzf --tac | awk "{\$1=\"\"; print substr(\$0,2)}" | xclip -selection clipboard'
 
-
+alias log='git log --graph --pretty="format:'\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset'\''" --abbrev-commit --date=relative'
